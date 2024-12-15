@@ -12,7 +12,7 @@
 	"forwardPorts": [5173],
 	"onCreateCommand": "./clean_files.sh",
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "printf \"\\033[B\\033[B\\n\" | npm create --yes vite@latest .   -- --template react-ts && npm install -D tailwindcss postcss autoprefixer  -y && npx tailwindcss init -p && npm install -y",
+	"postCreateCommand": "",
 
 	// Configure tool-specific properties.
 	"customizations": {

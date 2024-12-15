@@ -11,6 +11,7 @@ find . -mindepth 1 -maxdepth 1 \
   ! -name 'tsconfig.app.json' \
   ! -name 'vite.config.ts' \
   ! -name 'src' \
+  ! -name 'install.sh' \
   -exec rm -rf {} +
 
 # Preserve only src/index.css and remove other files in src
