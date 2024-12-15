@@ -23,7 +23,11 @@ A development container template for React + TypeScript projects with Vite, Shad
 
 1. Clone this repository
 ```bash
-git clone https://github.com/iteng007/shadcn-starter-devcontainer.git --branch start
+
+git clone https://github.com/iteng007/shadcn-starter-devcontainer.git project-name --branch start
+cd project-name
+rm -rf .git
+git init .
 ```
 2. Open in VS Code
 3. When prompted, click "Reopen in Container"
