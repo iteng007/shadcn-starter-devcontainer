@@ -1,3 +1,4 @@
+npm config set registry https://registry.npmmirror.com
 printf \"\\033[B\\033[B\\n\" | npm create --yes vite@latest . -- --template react-ts && \
 # Instead of separate npm installs, combine them:
 npm install -D tailwindcss postcss autoprefixer @types/node -y && \
